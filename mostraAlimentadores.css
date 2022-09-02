@@ -1,0 +1,29 @@
+html {
+
+    height: 100%;
+
+}
+
+body {
+
+    margin: 0;
+    height: 100%;
+
+}
+
+#Integratudo {
+    height: 100%;
+    align-items: center;
+    background-color: #dfcdb4;
+}
+
+#Cabecalho {
+
+    margin: auto;
+    height: 10%;
+    align-items: center;
+    background-color: #429398;
+    display: flex;
+    justify-content: right;
+    flex-direction: row-reverse;
+}

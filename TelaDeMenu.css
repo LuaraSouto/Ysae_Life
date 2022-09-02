@@ -1,0 +1,333 @@
+
+/**/
+
+html {
+
+    height: 100%;
+
+}
+
+body {
+
+    margin: 0;
+    height: 100%;
+
+}
+
+/**/
+
+#IntegraTudo {
+
+    background-image: url("Patinha.png");
+    background-repeat: repeat/no-repeat;
+    background-size: 250px 250px;
+    height: 100%;
+    align-items: center;
+    background-color: #dfcdb4;
+
+}
+
+/**/
+
+#Cabeca {
+
+
+    margin: auto;
+    height: 10%;
+    align-items: center;
+    background-color: #429398;
+    display: flex;
+    justify-content: right;
+    flex-direction: row-reverse;
+}
+
+/**/
+
+#DivSair {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+/**/
+
+.DivBemVindo {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: context-menu;
+    font-weight: bolder;
+    color: #42392e;
+    font-size: 22px;
+}
+
+/**/
+
+.BotaoUsuario {
+
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid rgb(176, 161, 143);
+    background-color: rgb(223, 205, 180);
+    color: #6b5d4d;
+    font-family: Verdana, "Lucida Sans Unicode", sans-serif;
+    height: 45px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.BotaoUsuario:hover {
+    cursor: pointer;
+    background: #ebe0c3;
+    color: #a39c8a;
+    transform: scale(1.0)
+}
+
+.BotaoUsuario:active {
+    background: #6b5d4d;
+    border: 3px solid #6b5d4d;
+    transform: scale(0.9)
+}
+
+/**/
+
+#Membro {
+
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    margin: auto;
+    height: 55%;
+    width: 95%;
+    background-color: #fbeed3;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+
+}
+
+/**/
+
+#botoesMeio {
+
+    height: 100%;
+    width: 35%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+/**/
+
+.BotaoCentral {
+    background-color: transparent;
+    border: transparent;
+    margin: auto;
+
+}
+
+.BotaoCentral:hover {
+    cursor: pointer;
+    background: transparent;
+    color: transparent;
+    transform: scale(1.1)
+}
+
+.BotaoCentral:active {
+    background: transparent;
+    border: transparent;
+    transform: scale(0.9)
+}
+
+/**/
+
+#BotoesAlimentadoresID{
+
+    height: 100%;
+    width: 65%;
+    margin: auto;
+    display: block;
+    align-items: flex-end;
+    justify-content:space-around;
+    flex-direction:column-reverse;
+
+}
+
+#Topo{
+    margin: auto;
+    height: 25%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+}
+
+#Meio{
+    margin: auto;
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#Baixo{
+    height: 25%;
+    width: 100%;
+
+}
+/**/
+
+#BotaoMais{
+
+    height: 50%;
+    width: 50%;
+
+}
+
+#botaoEditar{
+    height: 50%;
+    width: 50%;
+    
+}
+
+.BotoesAlimentadores {
+
+    min-height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    border: 2px solid rgb(223, 205, 180);
+    font-family: Inconsolata, monospace;
+    background-color: rgb(176, 161, 143);
+    color: #6b5d4d;
+    height: 85px;
+    font-size: 12px;
+    font-weight: 1000;
+    margin: 5px;
+
+}
+
+.BotoesAlimentadores:hover {
+    cursor: pointer;
+    background: #ebe0c3;
+    color: #a39c8a;
+    transform: scale(1.1)
+}
+
+.BotoesAlimentadores:active {
+    background: #6b5d4d;
+    border: 3px solid #6b5d4d;
+    transform: scale(1.0)
+}
+
+/**/
+
+.BotoesMostrarAlimentadores {
+
+    min-height: 5px;
+    width: 90px;
+    border-radius: 3px;
+    border: 2px solid rgb(223, 205, 180);
+    font-family: Inconsolata, monospace;
+    background-color: rgb(176, 161, 143);
+    color: #6b5d4d;
+    height: 30px;
+    font-size: 10px;
+    font-weight: 100;
+    margin: 50px;
+
+}
+
+.BotoesMostrarAlimentadores:hover {
+    cursor: pointer;
+    background: #ebe0c3;
+    color: #a39c8a;
+    transform: scale(1.1)
+}
+
+.BotoesMostrarAlimentadores:active {
+    background: #6b5d4d;
+    border: 3px solid #6b5d4d;
+    transform: scale(1.0)
+}
+
+/**/
+#Dados{
+    
+    height: 25%;
+    width: 45%;
+
+
+}
+
+#Caixa{
+
+    border-radius: 10%;
+    border: 5% solid #6b5d4d;
+
+    color: #42392e;
+    background: #dfcdb4;
+}
+/**/
+
+.Dados{
+
+    color: #42392e;
+    
+
+}
+
+/**/
+
+.BotaoSair {
+    background-color: transparent;
+    border: transparent;
+    color: #42392e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+
+}
+
+.BotaoSair:hover {
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: underline;
+    color: #ebe0c3;
+}
+
+.BotaoSair:active {
+    position: relative;
+    transform: scale(0.8)
+}
+
+/**/
+
+#Perna{
+    margin-top: 12%;    
+    height: 15%;
+    align-items: center;
+    background-color: #429398;
+
+}
+
+.Tabela{
+    font-size: 25px;
+    margin: 10px;
+    border:7px #42392e;
+    background-color:#6b5d4d;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.Divisao{
+    color: #42392e;
+    background-color: #dfcdb4;
+    border-radius: 5px;
+
+}

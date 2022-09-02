@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="TelaDeMenu.css" rel="stylesheet">
+    <title>Tela menu</title>
+</head>
+
+<body onload="MostraUserLogado()">
+
+    <div id="IntegraTudo">
+
+        <div id="Cabeca">
+            <a href="TelaDeUsuario.html"><button class="BotaoUsuario" title="Usuário">😸</button></a>
+
+            <div id="DivSair">
+
+                <div id="Bemvindo" class="DivBemVindo">
+                </div>
+
+                <a href="telaDeLogin.html"><button onclick="sair()" class="BotaoSair">Sair</button></a>
+            </div>
+
+
+        </div>
+
+        <div id="Membro">
+
+            <div id="botoesMeio">
+
+                <div id="BotaoMais">
+                    <a title="Adicionar novo alimentador" href="teladecadastroalimentador.html">
+                        <button class="BotaoCentral"><img src="BotaoPadrao.png" height="80" width="100">
+                        </button>
+                    </a>
+                </div>
+
+                <div id="botaoEditar">
+                     <a href="excluiralimentador.html"><button class="BotoesAlimentadores" title="Editar alimentador">editar
+                            alimentador</button></a> 
+                </div>
+
+
+            </div>
+            <div id="BotoesAlimentadoresID">
+
+                <div id="Topo">
+
+                    <table class="Tabela">
+                        <tr>
+                            <th class="Divisao">ID</th>
+                            <th class="Divisao">Nome Pet</th>
+                            <th class="Divisao">Inter. De Temp.</th>
+                            <th class="Divisao">Quant. Alimento</th>
+                        </tr>
+                        <tr>
+                            <td id="DadosID" class="Divisao"></td>
+                            <td id="DadosNomePet" class="Divisao"></td>
+                            <td id="DadosIntervaloTempo" class="Divisao"></td>
+                            <td id="DadosQuantidadeRacao" class="Divisao"></td>
+                        </tr>
+
+
+                    </table> 
+                    
+                </div>
+
+                <div id="Meio">
+                
+                   
+                
+                </div>
+
+                <div id="Baixo">
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <div id="ListaID">
+
+        </div>
+        <div id="Perna">
+
+        </div>
+
+    </div>
+
+    <script src="CRUDusuario.js"></script>
+
+</body>
+
+</html>

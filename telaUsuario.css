@@ -1,0 +1,118 @@
+html {
+
+    height: 100%;
+
+}
+
+body {
+
+    margin: 0;
+    height: 100%;
+
+}
+
+#IntegraTudo {
+
+    margin: auto;
+    height: 100%;
+    background-color: #dfcdb4;
+}
+
+#Cabeca {
+    margin: auto;
+    height: 10%;
+    width: 100%;
+    align-items: flex-start;
+    background-color: #429398;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    border-radius: 3px;
+
+}
+
+#Membro {
+
+    text-align: center;
+    margin: auto;
+    margin-left: 5%;
+    text-align: center;
+    align-items: center;
+    height: 90%;
+    width: 90%;
+    flex-direction: column-reverse;
+    background-color: #fbeed3;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+input {
+
+    background-color: #dfcdb4;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #22221c;
+    border: 0;
+    width: 30%;
+    height: 43px;
+    border-radius: 3px;
+
+}
+
+button {
+    background-color: #6b5d4d;
+    color: antiquewhite;
+    border: 0;
+    width: 7%;
+    height: 40px;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+}
+
+button:hover {
+
+    color: antiquewhite;
+    transform: scale(1.2);
+    font-size: larger;
+    background-color: indigo;
+}
+
+button:active {
+
+    background: #443c34;
+    border: 3px solid #6b5d4d;
+    transform: scale(1.0);
+}
+
+h4 {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #443c34;
+
+}
+
+label {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #443c34;
+}
+
+.seta {
+
+    background-color: transparent;
+
+}
+
+.seta:hover {
+
+    transform: scale(1.2);
+    font-size: larger;
+    background-color: transparent;
+}
+
+.seta:active {
+border: transparent;
+    background: transparent;
+    transform: scale(1.0);
+}

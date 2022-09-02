@@ -1,0 +1,17 @@
+html {
+
+    height: 100%;
+
+}
+body {
+
+    margin: 0;
+    height: 100%;
+
+}
+#IntegraTudo {
+
+    height: 100%;
+    align-items: center;
+    background-color: #dfcdb4;
+}

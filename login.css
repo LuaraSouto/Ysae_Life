@@ -1,0 +1,118 @@
+html{
+
+    height: 100%;
+}
+
+body{
+    margin: 0%;
+    height: 100%;
+    background-color: #429398;
+}
+#IntegraTudo{
+
+    height: 100%;
+    align-items: center;
+    background-color: #429398;
+}
+#Cima{
+    
+    margin: auto;
+    height: 15%;
+    width: 90%;
+}
+#Meio{
+    align-items: center;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    
+}
+
+.imagem{
+    height: 95%;
+    width: 75%;
+}
+
+#CampoLogin{
+
+    text-align: center;
+    align-items: center;
+    margin-left: 12%;
+    height: 75%;
+    width: 55%;
+    background-color: #dfcdb4;
+    border-radius: 90px;
+
+}
+#ConteudoQuadrado{
+
+    border: transparent;
+    height: 95%;
+
+}
+
+#ImagemLateral{
+    height: 86%;
+    width: 60%;
+}
+  
+.ButaoEntrar{
+
+    border: 0;
+    width: 10%;
+    height: 10%;
+    background-color: #6b5d4d;
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    border-radius: 10px;
+}
+.ButaoEntrar:hover{
+
+    color: antiquewhite;
+    transform: scale(1.2);
+    background-color: indigo;
+
+}
+
+.ButaoEntrar:active{
+    
+    background: #443c34;
+    border: 3px solid #6b5d4d;
+    transform: scale(1.0);
+    
+
+}
+
+.Imput{
+
+    background-color: #fff7eb;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: #22221c;
+    border: 0;
+    width: 30%;
+    height: 11%;
+    border-radius: 15px;
+
+}
+
+.LoginText{
+
+    color: #443c34;
+    font-size: 65px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+a{
+    font-family: Arial;
+    font-size: small;
+    color: indigo;
+}
+label{ 
+    font-family: Arial;
+    font-size: small;
+    color: black;
+}

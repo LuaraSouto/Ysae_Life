@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar ou excluir cadastro</title>
+    <link rel="stylesheet" href="telaUsuario.css">
+</head>
+
+<body onload="pesquisarCadastro()">
+    <div id="IntegraTudo">
+
+        <div id="Cabeca">
+            <a href="menu.html"><button class="seta" title="voltar"><img src="seta.png"  height="50" width="80"></button></a> 
+        </div>
+
+        <div id="Membro"><br>
+            <h4>Quais dados pretende editar?</h4><br>
+            <label class="base">Usuário</label><br>
+            <input id="nome" placeholder="Nome de usuario:"><br><br>
+            <label class="base">Senha</label><br>
+            <input id="senha" placeholder="Senha:"><br><br>
+            <label class="base">Email</label><br>
+            <input id="email" placeholder="Email:"><br><br>
+            <button onclick="EditarCadastro()">Atualizar</button><br><br>
+            <h4>Deseja excluir sua conta?</h4>
+            <input id="excluiconta" placeholder="Tem certeza? Digite seu nome de usuário"><br><br>
+            <a href="telaDeLogin.html"><button onclick="ExcluirCadastro()">Excluir</button></a><br><br>
+
+        </div>
+
+        <div id="Perna">
+
+        </div>
+
+    </div>
+
+
+    <script src="CRUDusuario.js"></script>
+
+
+</body>
+
+</html>

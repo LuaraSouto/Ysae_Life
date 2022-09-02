@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excluir/Editar alimentador</title>
+    <link rel="stylesheet" href="editarAlimentador.css">
+</head>
+
+<body>
+
+    <div id="IntegraTudo">
+
+        <div id="Cabecalho">
+            <a href="menu.html"><button class="seta" title="voltar"><img src="seta.png"  height="50" width="80"></button></a> 
+        </div>
+
+        <div id="Corpo"> 
+            <br>
+            <h1>Pretende editar seu alimentador? Pesquise pelo ID:</h1>
+            <input id="IDA" placeholder="ID do Alimentador:"><br><br>      
+            <input id="namePetE" placeholder="Nome do Pet:"><br><br>       
+            <input id="InterTempo" placeholder="Intervalo de Tempo (h):"><br><br>  
+            <input id="kag" placeholder="Quantidade de Alimento (kg):"><br><br>   
+            <button onclick="pesquisarAlimentador()">Pesquisar</button>
+            <button onclick="editarAlimentador()">Atualizar</button><br><br><br>
+            <h3>Deseja excluir esse Alimentador?</h3>
+            <input id="alimentaExcluir" placeholder="Tem certeza? Digite o ID">
+            <button onclick="ExcluirCadastroAlimentador()">Excluir</button><br><br>
+        </div>
+
+        <div id="Rodape">
+
+        </div>
+    </div>
+
+    <script src="CRUDusuario.js"></script>
+
+</body>
+
+</html>
